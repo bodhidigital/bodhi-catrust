@@ -45,7 +45,7 @@ if [[ $TRUE -eq $have_modified_hook ]] && ! command -v "${modified_hook[0]}"; th
 fi
 
 # Temprorary file name to write to
-declare -r tmp_file="$(mktemp -p "$(dirname "$dest_file")")"
+declare -r tmp_file="$(mktemp -p "$(dirname "$dest_file")")" || exit 1
 
 if [[ $TRUE -eq $dest_file_exists ]]; then
   # Get last modified

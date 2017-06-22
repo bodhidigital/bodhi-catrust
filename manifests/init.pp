@@ -6,7 +6,7 @@ class catrust (
   Integer $crl_interval     = 5,
   Hash    $catrust_certs    = {},
   Hash    $catrust_crls     = {},
-) inherits ::nginx::params {
+) inherits ::catrust::params {
   contain '::catrust::package'
   contain '::catrust::fetch_unmodified'
   contain '::catrust::update_trust'

@@ -10,7 +10,7 @@ class catrust::params {
 
   case "$::osfamily" {
     'Debian': {
-      $trust_dir = '/usr/local/ca-certificates'
+      $trust_dir = '/usr/local/share/ca-certificates'
       $ca_update = '/usr/sbin/update-ca-certificates'
     }
     'ArchLinux': {
