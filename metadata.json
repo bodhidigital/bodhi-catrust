@@ -1,0 +1,15 @@
+{
+  "name": "bodhi-catrust",
+  "version": "0.1.0",
+  "author": "bodhi",
+  "summary": "Add new CA certificates to the Linux CA trust store.",
+  "license": "Apache-2.0",
+  "source": "https://github.com/bodhi/bodhi-catrust.git",
+  "project_page": "https://github.com/bodhi/bodhi-catrust",
+  "issues_url": "https://github.com/bodhi/bodhi-catrust/issues",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ],
+  "data_provider": null
+}
+
