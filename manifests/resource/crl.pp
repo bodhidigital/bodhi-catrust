@@ -23,7 +23,7 @@ define catrust::resource::crl (
     }
     cron { "Update unmodified $title.crl":
       command => "$local_bin/$fetch_unmodified '$source' '$trust_dir/$title.crl' '$ca_update'",
-      minutes => [ $crl_interval ],
+      minute  => [ $crl_interval ],
       require => File["$local_bin/$fetch_unmodified"],
     }
   }
