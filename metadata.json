@@ -4,9 +4,9 @@
   "author": "bodhi",
   "summary": "Add new CA certificates to the Linux CA trust store.",
   "license": "Apache-2.0",
-  "source": "https://github.com/bodhi/bodhi-catrust.git",
-  "project_page": "https://github.com/bodhi/bodhi-catrust",
-  "issues_url": "https://github.com/bodhi/bodhi-catrust/issues",
+  "source": "https://github.com/bodhidigital/bodhi-catrust.git",
+  "project_page": "https://github.com/bodhidigital/bodhi-catrust",
+  "issues_url": "https://github.com/bodhidigital/bodhi-catrust/issues",
   "dependencies": [],
   "operatingsystem_support": [
     {
